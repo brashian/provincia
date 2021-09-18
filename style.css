@@ -15,7 +15,9 @@ h4 {
     background-color:rgb(124, 158, 55);
     color: white;
 }
-
+body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/764/573/286/flags-flag-of-the-czech-republic-flag-hd-wallpaper-preview.jpg);
+}
 
 
 #menu{
@@ -56,6 +58,10 @@ p{
     background-color:rgb(223, 219, 219);
     hyphens: auto;
 
+}
+#gente {
+     position:relative;
+     top: -18cm;
 }
 img {
     width: 100px ; 
