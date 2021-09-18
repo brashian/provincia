@@ -16,7 +16,7 @@ h4 {
     color: white;
 }
 body {
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/764/573/286/flags-flag-of-the-czech-republic-flag-hd-wallpaper-preview.jpg);
+    background-image: url(https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png);
 }
 
 
@@ -59,7 +59,7 @@ p{
     hyphens: auto;
 
 }
-#gente {
+.gente {
      position:relative;
      top: -18cm;
 }
@@ -75,7 +75,7 @@ img {
     margin: 25%;
     border:5px solid #fff;
     top: -350px;
-    left: 5cm; 
+    left: 8cm; 
 }
 
 footer{
