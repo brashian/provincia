@@ -1,65 +1,76 @@
- *{padding: 0px;
-  margin: auto;
- }
+*{
+    margin: auto;
+    padding: auto;
+   }
  header{
-    background-color:yellowgreen;
+    background-color: rgb(1,143,165,255);
  }
 sub {
     color:white;
+    font-family: 'Abel', sans-serif;
 }
  h1{
-    size: 105px 70px;
-   color: white;
-}
-h4 {
-    background-color:rgb(124, 158, 55);
+    font-family: 'Abel', sans-serif;
     color: white;
 }
-body {
-    background-image: url(https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png);
+h4 {
+    background-color:rgb(1,143,165,255);
+    color: white;
+    font-family: 'Abel', sans-serif;
 }
-
+h6 {
+    font-family: 'Abel', sans-serif;
+}
+body {
+    background: url(material/Imperdibles-de-Rio-Negro.jpg) no-repeat center center;
+    background-size:cover;
+}
+/**/
 
 #menu{
-    margin:auto;
-    width: 1000px;
+    background-color:rgb(1,143,165,255);;
 }
-ul, ol{
+
+
+.nav ul, ol{
     list-style: none;
+    font-family: 'Abel', sans-serif;
 }
-.nav li a{
-    background-color:rgb(124, 158, 55);
-    color:rgb(4, 32, 4);
-    width: 250px;
+
+ .nav li a{
+    background-color: rgb(1,143,165,255);
+    color: white;
+    font-size: 20px;
+    width: 150px;
     padding: 5px 10px;
-    display: block;
 }
 
-.nav > li {
-    float: left;
-}
 /*hover es para cuando se pase el mouse, por encima del articulo*/
-.nav li a:hover{
-    background-color:rgb(55, 109, 55);
-
-}
 
 .nav li ul{
     display: none;
-    position:absolute;
+    position:relative;
     min-width:100px;
 }
-
-.nav li:hover > ul {
-    display:block;
+.nav  li a {
+    float:left;
+    
+}
+/*Pasar por arriba, otro color*/
+ .nav li a:hover {
+    background-color: rgb(55, 164, 184);
 }
 
 p{
-    background-color:rgb(223, 219, 219);
     hyphens: auto;
-
+    font-family: 'Abel', sans-serif;
+    margin: 0cm 6cm 0cm 6cm;
+    
 }
 .gente {
+    background-color:rgb(245, 245, 245, 0.349);
+    hyphens: auto;
+    font-family: 'Abel', sans-serif;
      position:relative;
      top: -18cm;
 }
@@ -70,7 +81,7 @@ img {
 .logo{
     position: relative;
     width: 350px ; 
-    height: 400px;
+    height: 350px;
     border-radius: 50%;
     margin: 25%;
     border:5px solid #fff;
@@ -79,5 +90,11 @@ img {
 }
 
 footer{
-    background-color:yellowgreen;
+    background-color:rgb(1,143,165,255);
+}
+
+ #pie{
+    color:white;
+    list-style: none;
+    font-family: 'Abel', sans-serif;
 }
