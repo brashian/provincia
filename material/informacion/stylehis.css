@@ -2,26 +2,28 @@
     margin: auto;
 }
 header{
-    background-color:rgb(117, 136, 117);
+    background-color: rgb(1,143,165,255);
 }
 body {
     background-color:grey;
 }
 
 #hist{
-    background-color:yellowgreen;
-    color:rgb(6, 65, 6);
+    background-color:rgb(13, 69, 95);
+    color:rgb(255, 255, 255);
     width: 100px;
     padding: 2px 5px;
 }
 #hist:hover{
-    background-color: rgb(28, 218, 28);
+    background-color: rgb(8, 172, 248);
 }
 h1{
-    color:yellowgreen;
+    font-family: 'Abel', sans-serif;
+    color:rgb(255, 255, 255);
 }
 .info{
     text-align: center;
+    font-family: 'Abel', sans-serif;
     padding: 25px;
     background-color:white;
     margin-left:2cm;
@@ -30,6 +32,7 @@ h1{
 }
 dt{
     font-size: 20px;
+    font-family: 'Abel', sans-serif;
 }
 .photo{
     position: relative;
@@ -41,12 +44,25 @@ dt{
     top: -350px;
 
 }
+.gob {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+#gobernadores{
+    list-style: none;
+}
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
 footer{
-    background-color:rgb(117, 136, 117);
+    font-family: 'Abel', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,20,54,1) 5%, rgba(2,32,65,1) 8%, rgba(2,35,68,1) 13%, rgba(2,37,70,1) 18%, rgba(2,39,72,1) 22%, rgba(2,44,76,1) 31%, rgba(2,47,79,1) 38%, rgba(2,53,84,1) 45%, rgba(2,78,106,1) 51%, rgba(2,106,132,1) 57%, rgba(1,143,165,1) 68%, rgba(1,153,178,1) 77%, rgba(1,162,190,1) 82%, rgba(1,174,205,1) 87%, rgba(1,184,218,1) 94%, rgba(0,212,255,1) 100%, rgba(103,177,191,0.6852941860337884) 100%);
     
 }
 #final{
-    color:yellowgreen;
+    color:rgb(255, 255, 255);
     list-style: none;
     font-family: 'Abel', sans-serif;
 }

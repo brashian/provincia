@@ -3,6 +3,7 @@
     padding: auto;
    }
  header{
+    
     background-color: rgb(1,143,165,255);
  }
 sub {
@@ -22,10 +23,13 @@ h6 {
     font-family: 'Abel', sans-serif;
 }
 body {
-    background: url(material/Imperdibles-de-Rio-Negro.jpg) no-repeat center center;
+    background-image: url("material/Imperdibles-de-Rio-Negro.jpg");
     background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment:fixed;*/
 }
-/**/
+
 
 #menu{
     background-color:rgb(1,143,165,255);;
@@ -45,7 +49,7 @@ body {
     padding: 5px 10px;
 }
 
-/*hover es para cuando se pase el mouse, por encima del articulo*/
+/*hover es para cuando se pase el mouse por encima del articulo*/
 
 .nav li ul{
     display: none;
@@ -62,14 +66,14 @@ body {
 }
 
 p{
-    hyphens: auto;
+    
     font-family: 'Abel', sans-serif;
     margin: 0cm 6cm 0cm 6cm;
     
 }
 .gente {
     background-color:rgb(245, 245, 245, 0.349);
-    hyphens: auto;
+    
     font-family: 'Abel', sans-serif;
      position:relative;
      top: -18cm;
@@ -90,7 +94,9 @@ img {
 }
 
 footer{
-    background-color:rgb(1,143,165,255);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,20,54,1) 5%, rgba(2,32,65,1) 8%, rgba(2,35,68,1) 13%, rgba(2,37,70,1) 18%, rgba(2,39,72,1) 22%, rgba(2,44,76,1) 31%, rgba(2,47,79,1) 38%, rgba(2,53,84,1) 45%, rgba(2,78,106,1) 51%, rgba(2,106,132,1) 57%, rgba(1,143,165,1) 68%, rgba(1,153,178,1) 77%, rgba(1,162,190,1) 82%, rgba(1,174,205,1) 87%, rgba(1,184,218,1) 94%, rgba(0,212,255,1) 100%, rgba(103,177,191,0.6852941860337884) 100%);
+    /*background-color:rgb(1,143,165,255);*/
 }
 
  #pie{
