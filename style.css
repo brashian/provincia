@@ -13,6 +13,7 @@ sub {
  h1{
     font-family: 'Abel', sans-serif;
     color: white;
+    text-align: left;
 }
 h4 {
     background-color:rgb(1,143,165,255);
@@ -20,6 +21,7 @@ h4 {
     font-family: 'Abel', sans-serif;
 }
 h6 {
+    margin-top: 1cm;
     font-family: 'Abel', sans-serif;
 }
 body {
@@ -46,7 +48,7 @@ body {
     color: white;
     font-size: 20px;
     width: 150px;
-    padding: 5px 10px;
+    padding: 2px 5px;
 }
 
 /*hover es para cuando se pase el mouse por encima del articulo*/
@@ -54,10 +56,9 @@ body {
 .nav li ul{
     display: none;
     position:relative;
-    min-width:100px;
 }
 .nav  li a {
-    float:left;
+    float:right;
     
 }
 /*Pasar por arriba, otro color*/
@@ -72,8 +73,8 @@ p{
     
 }
 .gente {
-    background-color:rgb(245, 245, 245, 0.349);
-    
+     background-color:rgb(245, 245, 245, 0.349);
+
     font-family: 'Abel', sans-serif;
      position:relative;
      top: -18cm;
