@@ -7,10 +7,14 @@ header{
 body {
     background-color:grey;
 }
+main {
+    background-color: white;
+    margin-left: 2cm;
+    margin-right:2cm;
+}
 
 #hist{
     background-color:rgb(13, 69, 95);
-    color:rgb(255, 255, 255);
     width: 100px;
     padding: 2px 5px;
 }
@@ -26,7 +30,6 @@ h1{
     font-family: 'Abel', sans-serif;
     font-size: 20px;
     padding: 25px;
-    background-color:white;
     margin-left:2cm;
     margin-right:2cm ;
 
@@ -34,6 +37,7 @@ h1{
 dt{
     font-size: 20px;
     font-family: 'Abel', sans-serif;
+    margin-bottom: 15px;
 }
 .photo{
     position: relative;
@@ -53,6 +57,7 @@ dt{
     list-style: none;
 }
 h3 {
+    margin-top:15px;
     font-family: 'Abel', sans-serif;
     font-size: 25px;
 }
@@ -63,6 +68,7 @@ footer{
     
 }
 #final{
+    text-align: left;
     color:rgb(255, 255, 255);
     list-style: none;
     font-family: 'Abel', sans-serif;
