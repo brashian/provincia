@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    padding: auto;
+    padding: 0px;
    }
  header{
     
@@ -46,22 +46,26 @@ nav ul, ol{
  nav li a{
     background-color: rgb(1,143,165,255);
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     width: 150px;
     padding: 2px 5px;
+    display:block;
+}
+nav > li {
+    float:right;
 }
 
 /*hover es para cuando se pase el mouse por encima del articulo*/
 
 nav li ul{
     display: none;
-    position:relative;
+    position:absolute;
 }
 nav  li a {
-    float:right;
+ float:right;
     
 }
-/*Pasar por arriba, otro color*/
+/*Pasar con mouse, otro color*/
  nav li a:hover {
     background-color: rgb(55, 164, 184);
 }

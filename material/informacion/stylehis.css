@@ -5,10 +5,16 @@ header{
     background-color: rgb(1,143,165,255);
 }
 body {
-    background-color:grey;
+    background-image:url("../72-729141_bariloche-rio-negro-argentina.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    color:black;
+    font-weight: 400;
 }
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.466);
     margin-left: 2cm;
     margin-right:2cm;
 }
@@ -36,6 +42,7 @@ h1{
 }
 dt{
     font-size: 20px;
+    font-weight: 900;
     font-family: 'Abel', sans-serif;
     margin-bottom: 15px;
 }
@@ -45,7 +52,7 @@ dt{
     height: 350px;
     border-radius: 50%;
     margin: 25%;
-    border:5px solid rgb(34, 66, 153);
+    border:5px solid rgba(120, 121, 122, 0.842);
     top: -350px;
 
 }
@@ -53,9 +60,12 @@ dt{
     font-family: 'Abel', sans-serif;
     font-size: 20px;
 }
-#gobernadores{
-    list-style: none;
-}
+table, th, td {
+    border:2px solid black;
+    color:black;
+    font-size:20px;
+    
+  }
 h3 {
     margin-top:15px;
     font-family: 'Abel', sans-serif;
