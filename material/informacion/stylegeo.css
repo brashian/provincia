@@ -8,7 +8,7 @@ h1 {
     color:white;
 }
 body {
-    background-image:url("../72-729141_bariloche-rio-negro-argentina.jpg");
+    background-image:url("../img/72-729141_bariloche-rio-negro-argentina.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,13 +64,13 @@ main {
 }
 
 #photo{
-    position: relative;
+    position: center;
     width: 350px ; 
     height: 350px;
     border-radius: 50%;
     margin: 25%;
     border:5px solid rgba(130, 130, 134, 0.89);
-    top: -350px;
+    margin-top:1cm;
     left:7cm;
 
 }
